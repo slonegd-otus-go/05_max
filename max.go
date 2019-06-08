@@ -1,6 +1,6 @@
 package max
 
-func Find([]interface{}, func(i, j int) bool) interface{} {
+func Find(slice []interface{}, comparator func(i, j int) bool) interface{} {
 	var res interface{}
 	return res
 }
